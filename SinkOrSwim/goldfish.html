@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>FishGame</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+   
+  <audio id="myAudio" controls autoplay loop style="display:none">
+  <source src="bubble.mp3" type="audio/mp3">
+  </audio>
+ 
+   <!--<audio id="myAudio" autoplay="true" src="bubble.mp3" loop="true"></audio>-->
+     <!--id="myAudio"  display="none"  autoplay="true"-- >
+  <!--  -->
+        <!--class=flexbox-->
+    <div id=banner>
+        <div id="use">
+            <!--<img src="./image/water.jpg" id="titleImg">-->
+            <br> 金&nbsp;&nbsp;&nbsp;&nbsp;魚&nbsp;&nbsp;&nbsp;&nbsp;逃&nbsp;&nbsp;&nbsp;&nbsp;脫&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </div>
+
+
+    <div id="container">
+        <div id="fish"></div>
+
+        <div id="pole_1" class="pole"></div>
+        <div id="pole_2" class="pole"></div>
+
+
+    </div>
+    <div id="spur" >
+    </div>
+    <div id="state" >
+        <p> 使用 [↑] 向上鍵讓金魚往上游 </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" id=score_show>
+                Score:<span id="score">0</span><br> 
+                Speed:<span id="speed">10</span>
+
+            </div>
+            <div class="text-center col-sm-4">
+                <button id="restart_btn">RESTART</button>
+            </div>
+            <div class="col-sm-4"> </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
